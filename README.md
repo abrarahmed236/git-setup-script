@@ -47,7 +47,7 @@ On gitlab go to `Preferences -> SSH Keys` and copy the public key over there.
 #### Test if you can connect
 
 ```bash
-ssh -T git@gitlab.example.com
+ssh -T git@gitlab.com
 ```
 
 #### Debug if can't connect
