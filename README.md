@@ -10,20 +10,24 @@ git config --global core.editor vim
 ```
 
 #### Generate Key
+
 ```bash
 cd ~/.ssh
 ssh-keygen -t ed25519 -C "<comment>"
 ```
 
-#### Add key to ssh-agent 
+#### Add key to ssh-agent
+
 * might not be needed, see if logout-login helps
 * alternately restart ssh service (update this)
+
 ```bash
 eval $(ssh-agent -s)
 ssh-add <directory to private SSH key>
 ```
 
 #### Add config for Gitlab in `~/.ssh/config`
+
 ```bash
 # GitLab.com
 Host gitlab.com
@@ -37,14 +41,17 @@ Host gitlab.company.com
 ```
 
 #### Add SSH key to Gitlab account
+
 On gitlab go to `Preferences -> SSH Keys` and copy the public key over there.
 
 #### Test if you can connect
+
 ```bash
 ssh -T git@gitlab.example.com
 ```
 
 #### Debug if can't connect
+
 ```bash
 ssh -Tv git@gitlab.example.com
 ssh -Tvv git@gitlab.example.com
