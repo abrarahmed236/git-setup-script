@@ -57,3 +57,20 @@ ssh -Tv git@gitlab.example.com
 ssh -Tvv git@gitlab.example.com
 ssh -Tvvv git@gitlab.example.com
 ```
+
+## Behind Proxy
+
+Are you working behind a transparent proxy and setting up ssh is a bit too complicated ?  
+How about this ?
+
+Use personal access tokens.
+
+
+1. Generate a personal access token in gitlab.
+2. Copy the personal access token.
+3. Use it like this while cloning the repository.
+```bash
+git clone https://username:your-token@gitlab.com/your-username/your-repository.git
+```
+
+You don't need to supply the username and password each time.
