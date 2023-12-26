@@ -23,7 +23,7 @@ ssh-keygen -t ed25519 -C "<comment>"
 
 ```bash
 eval $(ssh-agent -s)
-ssh-add <directory to private SSH key>
+ssh-add <path/to/private/key>
 ```
 
 #### Add config for Gitlab in `~/.ssh/config`
