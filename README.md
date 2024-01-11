@@ -74,3 +74,7 @@ git clone https://username:your-token@gitlab.com/your-username/your-repository.g
 ```
 
 You don't need to supply the username and password each time.
+
+## Gitignore
+
+- [ ] To-Do: Add complete Notes about Gitignore [Link](https://www.freecodecamp.org/news/gitignore-file-how-to-ignore-files-and-folders-in-git/)
