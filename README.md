@@ -82,3 +82,4 @@ You don't need to supply the username and password each time.
       [Link](https://www.freecodecamp.org/news/gitignore-file-how-to-ignore-files-and-folders-in-git/)
 - [ ] To-Do: Add Notes about Repository Mirroring
 - [ ] To-Do: Rename Repository to Git Notes
+- [ ] To-Do: Add notes about git bare repository setup for dotfiles.
